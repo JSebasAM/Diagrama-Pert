@@ -1,0 +1,21 @@
+// libpert.h
+#ifndef LIBPERT_H
+#define LIBPERT_H
+
+void agregarArista(Actividad *actividades, int origen, int destino);
+int buscarIndice(Actividad *actividades, int num, const char *nombre);
+void calcularTempranos(Actividad *actividades, int num);
+void calcularTardios(Actividad *actividades, int num);
+void calcularHolguras(Actividad *actividades, int num);
+void mostrarResultados(Actividad *actividades, int num);
+void generarDOT(Actividad *actividades, int num, const char *filename)
+void calcularTempranos();
+
+void calcularTardios();
+
+void mostrarResultados();
+
+void generarDOT();
+
+#endif
+
